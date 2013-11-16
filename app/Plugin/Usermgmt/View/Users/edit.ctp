@@ -4,14 +4,12 @@
 		<legend><?php echo __('Edit User'); ?></legend>
 	<?php
 		echo $this->Form->input('id');
-		echo $this->Form->input('facebookid');
 		echo $this->Form->input('is_active');
 		echo $this->Form->input('role_id');
 		echo $this->Form->input('first_name');
 		echo $this->Form->input('last_name');
 		echo $this->Form->input('username');
 		echo $this->Form->input('gender');
-		echo $this->Form->input('password');
 		echo $this->Form->input('email_address');
 		echo $this->Form->input('date_of_birth');
 	?>

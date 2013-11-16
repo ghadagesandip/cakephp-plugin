@@ -35,7 +35,17 @@ class AppController extends Controller {
 
     public $components = array(
         'DebugKit.Toolbar' => array(/* array of settings */),
-        'Session'
+        'Session',
+        'Auth' => array(
+            'loginRedirect' => array('plugin'=>'usermgmt','controller' => 'users', 'action' => 'index'),
+            'logoutRedirect' => array('plugin'=>'usermgmt','controller' => 'users', 'action' => 'login'),
+            'authenticate' => array(
+                'Form' => array(
+                    //'fields' => array('username' => 'email_address'),
+                    'scope'  => array('User.is_active' => 1)
+                )
+            )
+        )
     );
 
 }
