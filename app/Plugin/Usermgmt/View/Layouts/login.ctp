@@ -40,7 +40,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <body>
 	<div id="container">
 		<div id="header">
-            <?php echo $this->element('header');?>
+            <?php echo $this->element('login_header');?>
         </div>
 		<div id="content">
 

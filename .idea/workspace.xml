@@ -6,9 +6,20 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/add.ctp" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384606469706" ignored="false" />
     <file path="/Role.php" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384604976012" ignored="false" />
-    <file path="/UsersController.php" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384606164707" ignored="false" />
+    <file path="/UsersController.php" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384684624874" ignored="false" />
     <file path="/AppModel.php" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384605522322" ignored="false" />
-    <file path="/a.php" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384606343820" ignored="false" />
+    <file path="/a.php" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384622590878" ignored="false" />
+    <file path="/AppController.php" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384614858047" ignored="false" />
+    <file path="/header.ctp" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384613862687" ignored="false" />
+    <file path="/DashboardsController.php" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384676306180" ignored="false" />
+    <file path="/login_header.ctp" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384614784148" ignored="false" />
+    <file path="/login.ctp" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384622265422" ignored="false" />
+    <file path="/a.xml" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384622603177" ignored="false" />
+    <file path="/a.feature" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384622625396" ignored="false" />
+    <file path="/FacebookCpsController.php" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384678468966" ignored="false" />
+    <file path="/bootstrap.php" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384675857274" ignored="false" />
+    <file path="/facebook.php" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384626478875" ignored="false" />
+    <file path="/index.ctp" changelist="2cbc1465-870b-4e0a-aed7-1042f5ad4804" time="1384683533148" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,37 +39,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Config/bootstrap.php">
+      <file leaf-file-name="FacebookCpsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/Controller/FacebookCpsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="0" selection-start="5281" selection-end="5281" vertical-scroll-proportion="-32.833332">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="3" selection-start="850" selection-end="850" vertical-scroll-proportion="0.235">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="UsersController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/Controller/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="785" selection-end="785" vertical-scroll-proportion="-24.0">
+            <state line="105" column="30" selection-start="2604" selection-end="2604" vertical-scroll-proportion="-1.6153846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/login.ctp">
+      <file leaf-file-name="header.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Elements/header.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="399" selection-end="399" vertical-scroll-proportion="-6.25">
+            <state line="12" column="77" selection-start="644" selection-end="644" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
@@ -67,16 +69,7 @@
       <file leaf-file-name="add.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/add.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="70" selection-start="1083" selection-end="1083" vertical-scroll-proportion="-15.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/index.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="59" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-13.75">
+            <state line="10" column="101" selection-start="342" selection-end="435" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
@@ -85,7 +78,43 @@
       <file leaf-file-name="edit.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/edit.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="42" selection-start="67" selection-end="67" vertical-scroll-proportion="-0.625">
+            <state line="14" column="6" selection-start="561" selection-end="561" vertical-scroll-proportion="-8.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Dashboards/index.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/Config/bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/login.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="91" selection-start="486" selection-end="486" vertical-scroll-proportion="-6.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/DashboardsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="5" selection-start="286" selection-end="286" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
@@ -101,21 +130,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/Config/core.php" />
-        <option value="$PROJECT_DIR$/app/Config/database.php" />
-        <option value="$PROJECT_DIR$/app/Config/bootstrap.php" />
-        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/View/Roles/add.ctp" />
-        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/Controller/RolesController.php" />
-        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/View/Roles/edit.ctp" />
-        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/Model/Role.php" />
-        <option value="$PROJECT_DIR$/app/Model/AppModel.php" />
-        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/Model/User.php" />
-        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/add.ctp" />
-        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/index.ctp" />
-        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/edit.ctp" />
+        <option value="$PROJECT_DIR$/app/Config/routes.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/View/Layouts/login.ctp" />
+        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/View/Elements/login_header.ctp" />
+        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/Vendor/composer.json" />
+        <option value="$PROJECT_DIR$/app/Plugin/Facebook/Config/facebook.php" />
         <option value="$PROJECT_DIR$/app/Controller/AppController.php" />
-        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/Controller/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/Config/bootstrap.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/Vendor/facebook.php" />
         <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/login.ctp" />
+        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/Controller/FacebookCpsController.php" />
+        <option value="$PROJECT_DIR$/app/Controller/DashboardsController.php" />
+        <option value="$PROJECT_DIR$/app/View/Dashboards/index.ctp" />
+        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/Config/bootstrap.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/add.ctp" />
+        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/edit.ctp" />
+        <option value="$PROJECT_DIR$/app/Plugin/Usermgmt/Controller/UsersController.php" />
       </list>
     </option>
   </component>
@@ -152,6 +182,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -282,18 +313,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="options.lastSelected" value="reference.settings.ide.settings.spelling" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Vendor" />
+      <recent name="$PROJECT_DIR$/app/Plugin/Usermgmt/View/Layouts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
     </key>
@@ -336,26 +370,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1154" height="817" extended-state="7" />
+    <frame x="-1" y="24" width="1154" height="817" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24412297" sideWeight="0.6706408" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28661844" sideWeight="0.671151" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -419,114 +453,106 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Config/Schema/i18n.sql">
+    <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="49" column="8" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.64144737">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/Schema/sessions.php">
+    <entry file="file://$PROJECT_DIR$/app/Config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="45" column="0" selection-start="1663" selection-end="1663" vertical-scroll-proportion="0.5797101" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
+    <entry file="file://$PROJECT_DIR$/app/Config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="46" selection-start="988" selection-end="988" vertical-scroll-proportion="0.39473686">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/Controller/RolesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="26" selection-start="889" selection-end="889" vertical-scroll-proportion="0.65">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/View/Roles/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="136" selection-end="136" vertical-scroll-proportion="0.12776831">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/Model/Role.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.24671052">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/View/Roles/edit.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.17269737">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="51" selection-start="106" selection-end="106" vertical-scroll-proportion="0.049342107">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/AppModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="41" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.33816424">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="0" selection-start="5281" selection-end="5281" vertical-scroll-proportion="-32.833332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/Controller/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="785" selection-end="785" vertical-scroll-proportion="-24.0">
-          <folding />
-        </state>
+        <state line="25" column="42" selection-start="972" selection-end="972" vertical-scroll-proportion="-0.4555921" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="59" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-13.75">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.5180921" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="67.5" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="3" selection-start="5168" selection-end="5168" vertical-scroll-proportion="-18.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/edit.ctp">
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/Vendor/facebook.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="42" selection-start="67" selection-end="67" vertical-scroll-proportion="-0.625">
+        <state line="17" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="9.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/login.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="399" selection-end="399" vertical-scroll-proportion="-6.25">
+        <state line="11" column="91" selection-start="486" selection-end="486" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/DashboardsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="5" selection-start="286" selection-end="286" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Dashboards/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/Controller/FacebookCpsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/Config/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/header.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="77" selection-start="644" selection-end="644" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="70" selection-start="1083" selection-end="1083" vertical-scroll-proportion="-15.625">
+        <state line="10" column="101" selection-start="342" selection-end="435" vertical-scroll-proportion="-6.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/View/Users/edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="850" selection-end="850" vertical-scroll-proportion="0.235">
+        <state line="14" column="6" selection-start="561" selection-end="561" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Usermgmt/Controller/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="30" selection-start="2604" selection-end="2604" vertical-scroll-proportion="-1.6153846">
           <folding />
         </state>
       </provider>

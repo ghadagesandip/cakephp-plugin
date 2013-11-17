@@ -91,12 +91,20 @@ p {
 	background: #003d4c;
 	font-weight: normal;
 	text-decoration: none;
+    float: left;
 }
 #header h1 a:hover {
 	color: #fff;
 	background: #003d4c;
 	text-decoration: underline;
 }
+
+#header a {color: #FFFFFF;float: right;font-weight: normal;padding: 3px 12px; text-decoration: none; margin: 0 5px;}
+#header a.logout {background: none repeat scroll 0 0 red;  color: #FFFFFF; float: right;   font-weight: normal;  padding: 3px 12px; text-decoration: none; margin: 0 5px;}
+#header a.dashboard{background: none repeat scroll 0 0 green;color: white;}
+#header .button{background: none repeat scroll 0 0 green;color: white;}
+#header a:hover {color: #fff; font-wieght:bold;}
+
 #content{
 	background: #fff;
 	clear: both;

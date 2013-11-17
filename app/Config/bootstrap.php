@@ -111,5 +111,4 @@ CakeLog::config('error', array(
 
 CakePlugin::load('DebugKit');
 
-
-CakePlugin::load('Usermgmt', array('bootstrap' => false, 'routes' => false));
+CakePlugin::load('Usermgmt', array('bootstrap' => true, 'routes' => false));

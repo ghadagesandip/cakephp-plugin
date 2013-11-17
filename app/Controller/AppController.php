@@ -21,7 +21,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 App::uses('Controller', 'Controller');
-
+App::uses('UsersController', 'Usermgmt.Controller');
 /**
  * Application Controller
  *
@@ -39,13 +39,21 @@ class AppController extends Controller {
         'Auth' => array(
             'loginRedirect' => array('plugin'=>'usermgmt','controller' => 'users', 'action' => 'index'),
             'logoutRedirect' => array('plugin'=>'usermgmt','controller' => 'users', 'action' => 'login'),
+            'loginAction' => array('plugin'=>'usermgmt','controller' => 'users', 'action' => 'login'),
             'authenticate' => array(
                 'Form' => array(
                     //'fields' => array('username' => 'email_address'),
                     'scope'  => array('User.is_active' => 1)
                 )
             )
-        )
+        ),
+
     );
+
+
+
+    public function beforeFilter(){
+
+    }
 
 }
