@@ -32,6 +32,17 @@ App::uses('Model', 'Model');
  * @package       app.Model
  */
 class AppModel extends Model {
+
     public $actAs = array('Containable');
+
+
+    public function beforeSave($options = array()){
+        if (isset($this->_schema['created_by']) && isset($this->data[$this->alise]['id'])) {
+            $this->data[$this->alias]['created_by'] = AuthComponent::user('id');
+        }else{
+            $this->data[$this->alias]['modified_by'] = AuthComponent::user('id');
+        }
+        return true;
+    }
 
 }

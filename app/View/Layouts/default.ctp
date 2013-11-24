@@ -27,11 +27,13 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		<?php echo $cakeDescription ?>:
 		<?php echo $title_for_layout; ?>
 	</title>
-	<?php
+    <?php echo $this->Html->css(array('/js/datatables/css/jquery.dataTables','bootstrap.min','bootstrap-responsive.min'));?>
+
+
+    <?php
 		echo $this->Html->meta('icon');
-
 		echo $this->Html->css('cake.generic');
-
+        echo $this->Html->script(array('jquery-1.10.2.min'));
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
@@ -48,6 +50,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
 			<?php echo $this->fetch('content'); ?>
 		</div>
+
 		<div id="footer">
 			<?php echo $this->Html->link(
 					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
@@ -56,7 +59,16 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 				);
 			?>
 		</div>
+        <?php echo $this->Html->script(array('datatables/js/jquery.dataTables.min','bootstrap.min','examples'));?>
+<!--        <script src="/js/datatables/js/jquery.dataTables.min.js"></script>-->
+<!--        <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>-->
+<!--        <script src="/js/examples.js"></script>-->
 	</div>
-	<?php //echo $this->element('sql_dump'); ?>
+	<?php
+	    //echo $this->element('sql_dump');
+         echo $this->Js->writeBuffer();
+    ?>
+
+
 </body>
 </html>

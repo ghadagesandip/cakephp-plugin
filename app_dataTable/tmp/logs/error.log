@@ -1,0 +1,9 @@
+2013-11-18 18:37:36 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-plugins/posts
+Stack Trace:
+#0 /var/www/cakephp-plugins/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

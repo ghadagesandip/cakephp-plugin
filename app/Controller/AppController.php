@@ -33,11 +33,13 @@ App::uses('UsersController', 'Usermgmt.Controller');
  */
 class AppController extends Controller {
 
+    public $helpers = array('Js' => array('Jquery'));
+
     public $components = array(
-        'DebugKit.Toolbar' => array(/* array of settings */),
-        'Session',
+        //'DebugKit.Toolbar' => array(/* array of settings */),
+        'Session','RequestHandler','Paginator',
         'Auth' => array(
-            'loginRedirect' => array('plugin'=>'usermgmt','controller' => 'users', 'action' => 'index'),
+            'loginRedirect' => array('plugin'=>false,'controller' => 'dashboards', 'action' => 'index'),
             'logoutRedirect' => array('plugin'=>'usermgmt','controller' => 'users', 'action' => 'login'),
             'loginAction' => array('plugin'=>'usermgmt','controller' => 'users', 'action' => 'login'),
             'authenticate' => array(
@@ -51,9 +53,11 @@ class AppController extends Controller {
     );
 
 
-
     public function beforeFilter(){
-
+        parent::beforeFilter();
+        if($this->RequestHandler->responseType() == 'json'){
+            $this->RequestHandler->setContent('json', 'application/json' );
+        }
     }
 
 }
